@@ -1,0 +1,19 @@
+{
+  "name": "homework-10",
+  "version": "1.0.0",
+  "description": "bamazon app, mock inventory updating",
+  "main": "bamazoncustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PigletX4/BamazonNodeSql.git"
+  },
+  "author": "Auri H Robbins-Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PigletX4/BamazonNodeSql/issues"
+  },
+  "homepage": "https://github.com/PigletX4/BamazonNodeSql#readme"
+}
