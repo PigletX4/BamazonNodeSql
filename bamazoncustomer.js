@@ -39,9 +39,10 @@ function startUp() {
         messages: "How many would you like?"
     }
     ]).then(function (answer) {
-        var itemChoice = answer.purchaseItem;
+        var itemChoice = parseInt(answer.purchaseItem);
         var itemAmount = answer.amount;
         var currentId;
+        
         
         for(var e = 0; e < 10; e++){
             
@@ -52,7 +53,7 @@ function startUp() {
             var purchaseTotal = (itemPrice * itemAmount)
 
 
-            if(itemChoice == currentId){
+            if(itemChoice === currentId){
 
                 if(currentStock < itemAmount){
                     console.log('Sorry, we currently do not have enough in stock!')
